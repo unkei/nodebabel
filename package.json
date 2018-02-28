@@ -1,0 +1,17 @@
+{
+  "name": "mynode",
+  "version": "0.0.1",
+  "description": "my node app",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js --presets babel-preset-env",
+    "build": "babel src -d build --presets babel-preset-env",
+    "serve": "node build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
